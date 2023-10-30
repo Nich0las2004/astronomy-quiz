@@ -1,4 +1,4 @@
-import quizData from "./quizData";
+import Questions from "./Questions";
 
 const App = () => {
   return (
@@ -6,9 +6,7 @@ const App = () => {
       <h1>Astronomy Quiz</h1>
       <p>Welcome to the astronomy quiz!</p>
 
-      {quizData.map((item) => (
-        <li key={item.id}>{item.question}</li>
-      ))}
+      <Questions />
     </div>
   );
 };
