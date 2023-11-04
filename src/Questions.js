@@ -1,8 +1,7 @@
-import { Fragment } from "react";
 import quizData from "./quizData";
 
 import classes from "./Questions.module.css";
-import Submit from "./Submit";
+import Submit from "./SubmitButton/SubmitButton";
 
 const Questions = () => {
   return (
