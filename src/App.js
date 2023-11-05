@@ -1,4 +1,5 @@
 import Question1 from "./pages/Question1";
+import Question2 from "./pages/Question2";
 
 import { Routes, Route, Navigate } from "react-router-dom";
 
@@ -18,6 +19,7 @@ const App = () => {
           </>
         }
       />
+      <Route path="/secondQuestion" element={<Question2 />} />
     </Routes>
   );
 };
