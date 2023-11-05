@@ -1,7 +1,7 @@
 const quizData = [
   {
     id: 1,
-    question: "Which planet is the closes to the sun?",
+    question: "Which planet is the closest to the sun?",
     options: ["Earth", "Mercury", "Mars", "Venus"],
     answer: "Mercury",
   },

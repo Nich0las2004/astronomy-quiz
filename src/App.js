@@ -1,15 +1,24 @@
-import Questions from "./Questions";
+import Question1 from "./pages/Question1";
 
-import "./App.css"
+import { Routes, Route, Navigate } from "react-router-dom";
+
+import "./App.css";
 
 const App = () => {
   return (
-    <div>
-      <h1>Astronomy Quiz</h1>
-      <p>Welcome to the astronomy quiz!</p>
-
-      <Questions />
-    </div>
+    <Routes>
+      <Route path="/" element={<Navigate to="/firstQuestion" />} />
+      <Route
+        path="/firstQuestion"
+        element={
+          <>
+            <h1>Astronomy Quiz</h1>
+            <p>Welcome to the astronomy quiz!</p>
+            <Question1 />
+          </>
+        }
+      />
+    </Routes>
   );
 };
 
