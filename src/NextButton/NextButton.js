@@ -1,5 +1,7 @@
+import classes from "./NextButton.module.css";
+
 const NextButton = () => {
-  return <button>Next</button>;
+  return <button className={classes.button}>Next</button>;
 };
 
 export default NextButton;
