@@ -1,5 +1,7 @@
 import quizData from "../quizData";
 
+import PrevButton from "../PrevButton/PrevButton";
+
 const Question5 = () => {
   const info = quizData[4];
 
@@ -13,6 +15,8 @@ const Question5 = () => {
           <label>{option}</label>
         </>
       ))}
+
+      <PrevButton />
     </div>
   );
 };

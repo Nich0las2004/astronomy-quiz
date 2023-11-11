@@ -1,5 +1,8 @@
 import quizData from "../quizData";
 
+import NextButton from "../NextButton/NextButton";
+import PrevButton from "../PrevButton/PrevButton";
+
 const Question3 = () => {
   const info = quizData[2];
 
@@ -13,6 +16,9 @@ const Question3 = () => {
           <label>{option}</label>
         </>
       ))}
+
+      <PrevButton />
+      <NextButton nextPage="/fourthQuestion" />
     </div>
   );
 };

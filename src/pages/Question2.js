@@ -18,7 +18,7 @@ const Question2 = () => {
       ))}
 
       <PrevButton />
-      <NextButton />
+      <NextButton nextPage="/thirdQuestion" />
     </div>
   );
 };
