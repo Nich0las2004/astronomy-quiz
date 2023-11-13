@@ -4,6 +4,8 @@ import Question3 from "./pages/Question3";
 import Question4 from "./pages/Question4";
 import Question5 from "./pages/Question5";
 
+import Score from "./Score/Score";
+
 import { Routes, Route, Navigate } from "react-router-dom";
 
 import "./App.css";
@@ -26,6 +28,7 @@ const App = () => {
       <Route path="/thirdQuestion" element={<Question3 />} />
       <Route path="/fourthQuestion" element={<Question4 />} />
       <Route path="/fifthQuestion" element={<Question5 />} />
+      <Route path="/score" element={<Score />} />
     </Routes>
   );
 };
