@@ -1,0 +1,14 @@
+.prevButton {
+  background-color: #0077b6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.prevButton:hover {
+  background-color: #005d8f;
+}

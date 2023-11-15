@@ -1,7 +1,7 @@
 import quizData from "../quizData";
 
-import NextButton from "../NextButton/NextButton";
-import PrevButton from "../PrevButton/PrevButton";
+import NextButton from "../components/NextButton/NextButton";
+import PrevButton from "../components/PrevButton/PrevButton";
 
 const Question2 = () => {
   const info = quizData[1];

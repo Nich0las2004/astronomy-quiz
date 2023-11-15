@@ -4,7 +4,7 @@ import Question3 from "./pages/Question3";
 import Question4 from "./pages/Question4";
 import Question5 from "./pages/Question5";
 
-import Score from "./Score/Score";
+import Score from "./components/Score/Score"
 
 import { Routes, Route, Navigate } from "react-router-dom";
 

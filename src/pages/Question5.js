@@ -1,8 +1,8 @@
 import quizData from "../quizData";
 
-import PrevButton from "../PrevButton/PrevButton";
+import PrevButton from "../components/PrevButton/PrevButton";
 
-import SubmitButton from "../SubmitButton/SubmitButton"
+import SubmitButton from "../components/SubmitButton/SubmitButton"
 
 const Question5 = () => {
   const info = quizData[4];
