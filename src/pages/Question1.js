@@ -1,12 +1,13 @@
-import quizData from "../quizData"
+import quizData from "../quizData";
 
-import NextButton from "../components/NextButton/NextButton"
+import NextButton from "../components/NextButton/NextButton";
 
 const Question1 = () => {
   const info = quizData[0];
 
   return (
-    <div>
+    <div
+    >
       <h2 key={info.id}>{info.question}</h2>
 
       {info.options.map((option) => (
