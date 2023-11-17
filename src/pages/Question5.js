@@ -2,7 +2,7 @@ import quizData from "../quizData";
 
 import PrevButton from "../components/PrevButton/PrevButton";
 
-import SubmitButton from "../components/SubmitButton/SubmitButton"
+import SubmitButton from "../components/SubmitButton/SubmitButton";
 
 const Question5 = () => {
   const info = quizData[4];
@@ -18,8 +18,10 @@ const Question5 = () => {
         </>
       ))}
 
-      <PrevButton previousPage="/fourthQuestion" />
-      <SubmitButton submitPage="/score" />
+      <div>
+        <PrevButton previousPage="/fourthQuestion" />
+        <SubmitButton submitPage="/score" />
+      </div>
     </div>
   );
 };

@@ -17,8 +17,10 @@ const Question4 = () => {
         </>
       ))}
 
-      <PrevButton previousPage="/thirdQuestion" />
-      <NextButton nextPage="/fifthQuestion" />
+      <div>
+        <PrevButton previousPage="/thirdQuestion" />
+        <NextButton nextPage="/fifthQuestion" />
+      </div>
     </div>
   );
 };

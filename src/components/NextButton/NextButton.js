@@ -10,9 +10,9 @@ const NextButton = ({ nextPage }) => {
   };
 
   return (
-    <button className={classes.button} onClick={handleClick}>
-      Next
-    </button>
+      <button className={classes.button} onClick={handleClick}>
+        Next
+      </button>
   );
 };
 

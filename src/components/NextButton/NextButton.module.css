@@ -1,18 +1,18 @@
 .button {
-    font-size: 16px;
-    padding: 10px 20px;
-    background-color: #3498db; /* Choose a color that matches your project's theme */
-    color: #ffffff; /* Text color */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .button:hover {
-    background-color: #2980b9; /* Darker shade on hover */
-  }
-  
-  .button:active {
-    background-color: #1f618d; /* Slightly darker shade when button is pressed */
-  }
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2980b9; /* Darker shade on hover */
+}
+
+.button:active {
+  background-color: #1f618d; /* Slightly darker shade when button is pressed */
+}
