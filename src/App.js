@@ -19,7 +19,6 @@ const App = () => {
         element={
           <>
             <h1>Astronomy Quiz</h1>
-            <p>Welcome to the astronomy quiz!</p>
             <Question1 />
           </>
         }
