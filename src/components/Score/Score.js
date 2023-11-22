@@ -1,7 +1,11 @@
 import classes from "./Score.module.css";
 
 const Score = () => {
-  return <p>Score: </p>;
+  return (
+    <span>
+      <p className={classes.score}>Score: </p> 
+    </span>
+  );
 };
 
 export default Score;
