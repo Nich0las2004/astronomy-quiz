@@ -7,7 +7,9 @@ const Question1 = () => {
 
   return (
     <div>
-      <h2 key={info.id}>{info.question}</h2>
+      <h2 style={{ color: "aqua" }} key={info.id}>
+        {info.question}
+      </h2>
 
       {info.options.map((option) => (
         <>
